@@ -4,6 +4,10 @@ public class Node {
 	private int val;
 	private Node next;
 
+	Node(){
+		this.val = -1;
+		this.next = null;
+	}
 	Node(int val){
 		this.val = val;
 		this.next = null;

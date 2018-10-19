@@ -19,6 +19,23 @@ public class Main {
 		
 		System.out.println("peek : "+stack.peek());
 		stack.stackPrinter();
+		
+		Queue queue = new Queue();
+		queue.add(1);
+		queue.add(4);
+		queue.add(5);
+		queue.add(2);
+		queue.add(6);
+		queue.add(8);
+		queue.add(9);
+		queue.queuePrinter();
+
+		System.out.println("poll : "+queue.poll());
+		System.out.println("poll : "+queue.poll());
+		queue.queuePrinter();
+
+		System.out.println("peek : "+queue.peek());
+		queue.queuePrinter();
 	}
 
 }
